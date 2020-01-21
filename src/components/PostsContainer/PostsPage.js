@@ -8,9 +8,8 @@ const PostsPage = (props) => {
   
   return (
     <div className="posts-container-wrapper">
-      {/* {props.data.map}(post => (
-        <li key={post.id}>{post}</li>
-      ))} */}
+      
+     
     </div>
   );
 };

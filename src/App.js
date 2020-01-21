@@ -17,14 +17,18 @@ import dummyData from "./dummy-data";
 const App = () => {
   // set up state for the dummy data and pass to your PostsPage
 
-  const [data, setData] = useState(0);
+  const [data] = useState(dummyData);
 
   return (
     <div className="App">
       {/* Add components here  and pass props where appropriate */}
+    
+      <h1>Instagram Clone</h1>
+      
+      <PostsPage posts="posts" />
       <SearchBar />
-      <PostsPage posts="post" />
-      <dummyData data="data" />
+      
+     
     </div>
   );
 };
