@@ -11,10 +11,8 @@ const CommentSection = props => {
 
   return (
     <div>
-      {comments.map((i) => {
-        return(< Comment key={Math.random()} comment={i} />
-        )
-      })}
+      {comments.map((comment, index) => 
+        <Comment key={index} comment={comment} />)}
       
       <CommentInput />
     </div>

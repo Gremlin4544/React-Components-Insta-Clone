@@ -23,10 +23,10 @@ const App = () => {
     <div className="App">
       {/* Add components here  and pass props where appropriate */}
     
-      <h1>Instagram Clone</h1>
-      
-      <PostsPage data={data} />
+    
       <SearchBar />
+      <PostsPage data={data} />
+      
       
      
     </div>
