@@ -25,7 +25,7 @@ const App = () => {
     
       <h1>Instagram Clone</h1>
       
-      <PostsPage posts="posts" />
+      <PostsPage data={data} />
       <SearchBar />
       
      
